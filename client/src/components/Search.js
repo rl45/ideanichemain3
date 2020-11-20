@@ -44,7 +44,7 @@ class Search extends Component {
         }
 
         //Render new component/SetDirect to
-        axios.post('https://ideaniche.herokuapp.com/', term)
+        axios.post('/', term)
             .then(res => {
 
                 //If data is empty, reset loading screen, and show error

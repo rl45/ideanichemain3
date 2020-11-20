@@ -36,7 +36,7 @@ class Home extends Component {
         }
 
         //Render new component/SetDirect to
-        axios.post('https://ideaniche.herokuapp.com/', term)
+        axios.post('/', term)
             .then(res => {
 
                 //If data is empty, reset loading screen, and show error
@@ -64,7 +64,7 @@ class Home extends Component {
 
     renderSubreddits = () => {
 
-        axios.get('https://ideaniche.herokuapp.com/')
+        axios.get('/')
             .then(res => {
                 //console.log(res.data)
 
