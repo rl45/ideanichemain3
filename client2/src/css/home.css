@@ -1,0 +1,60 @@
+.bg{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.maincontent {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    grid-template-columns: 80% 20%;
+}
+
+.search{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: large;
+    outline: none;
+    color: white;
+    border: none;
+    background-color: black;
+}
+
+.btn{
+    height: 50px;
+}
+
+.header{
+    width: 100%;
+    text-align: left;
+}
+
+.loader{
+    padding-bottom: 50px;
+}
